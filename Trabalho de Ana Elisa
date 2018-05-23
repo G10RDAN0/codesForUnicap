@@ -1,0 +1,15 @@
+package trabalhos_de_anaelisa;
+import java.util.Scanner;
+public class Trabalho1 {
+    public static void main(String[] args) {
+       Scanner input = new Scanner(System.in);
+       int resposta;
+       do{
+           System.out.println("Escolha o nível de dificuldade: ");
+           System.out.println("1 - Fácil ()");
+           System.out.println("2 - Médio ()");
+           System.out.println("3 - Difícil ()");
+           
+       }
+    }   
+}
