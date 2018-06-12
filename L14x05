@@ -1,0 +1,21 @@
+package L14;
+import java.util.Scanner;
+public class L14x05 {
+    public static void bit(int number){
+    if(number>1){
+        System.out.print(number%2);
+        bit(number/2);
+    }
+    else{
+        System.out.println(1);
+    }
+    }
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int number;
+        System.out.println("Digite um número: ");
+        number = input.nextInt();
+        bit(number);
+    }
+    
+}
